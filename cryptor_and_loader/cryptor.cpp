@@ -152,6 +152,7 @@ void cipherBytes ( char* fileName, SEGMENT_INFO_PTR addrInfo )
 {
 	DWORD fileOffset;
 	DWORD nbytes;
+	BYTE  key[ ] = { 0x13, 0x37, 0xDE, 0xAD, 0xBE, 0xEF };
 
 	FILE* fptr;
 	BYTE *buffer;
